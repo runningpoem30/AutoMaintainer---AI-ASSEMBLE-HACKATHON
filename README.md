@@ -263,28 +263,7 @@ Edit `workflows/main-orchestration.yml` to:
 
 ---
 
-## 📈 Demo Flow
 
-**For Judges**: Here's a complete walkthrough:
-
-1. **Setup** (5 min): Run `./scripts/setup.sh`
-2. **Configure**: Add API keys to `.env`
-3. **Start Services**: `docker-compose up -d`
-4. **Start Frontend**: `cd frontend && npm run dev`
-5. **Trigger Run**: Execute workflow in Kestra UI (http://localhost:8080)
-6. **Monitor**: Watch Kestra execution logs
-7. **View Results**: Check dashboard (http://localhost:3000)
-
-**Expected Timeline** (per run):
-- Clone & analyze: 1-2 min
-- Task selection: 30 sec
-- Implementation: 5-15 min (depends on task)
-- PR creation: 10 sec
-- CodeRabbit review: 2-5 min
-- Evaluation: 30 sec
-- **Total**: ~10-25 minutes per improvement
-
----
 
 ## 🏆 Key Differentiators
 
